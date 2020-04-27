@@ -20,7 +20,7 @@
         <!-- Add your site or application content here -->
         <?php include 'navbar.php'; ?>
         <!-- Slider Area Start Here -->
-        <div class="slider-area slider-layout2">
+        <div class="slider-area slider-layout1">
             <div class="bend niceties preview-1">
                 <div id="ensign-nivoslider-4" class="slides">
                     <img src="img/slider/slide1-1.jpg" alt="slider" title="#slider-direction-1" />
@@ -176,96 +176,82 @@
         </section>
         <!-- About Us Area End Here -->
         <!-- Service Area Start Here -->
-        <section class="service-wrap-layout2 bg-common" data-bg-image="img/figure/section-bg3.jpg">
-            <div class="container">
-                <div class="heading-layout1">
-                    <p>Plumbing Services</p>
-                    <h2 class="item-title">Our Plumbing Services</h2>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 col-sm-6 col-12">
-                        <div class="service-box-layout2">
-                            <div class="item-icon">
-                                <i class="flaticon-drainage"></i>
-                            </div>
-                            <div class="item-content">
-                                <h3 class="item-title"><a href="single-service1.html">Drain Cleaning</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 col-12">
-                        <div class="service-box-layout2">
-                            <div class="item-icon">
-                                <i class="flaticon-faucet"></i>
-                            </div>
-                            <div class="item-content">
-                                <h3 class="item-title"><a href="single-service1.html">Sewer Line</a></h3>
+        <div class="slider-area slider-layout2">
+            <div class="bend niceties preview-1">
+                <div id="ensign-nivoslider-4" class="slides nivoSlider">
+                    <img src="img/slider/slide1-1.jpg" alt="slider" title="#slider-direction-1" style="display: none; width: 1263.33px;">
+                    <img src="img/slider/slide1-2.jpg" alt="slider" title="#slider-direction-2" style="display: none; width: 1263.33px;">
+                    <img src="img/slider/slide1-3.jpg" alt="slider" title="#slider-direction-3" style="display: none; width: 1263.33px;">
+                <img class="nivo-main-image" src="img/slider/slide1-1.jpg" style="width: 1263.33px; height: auto;"><div class="nivo-caption" style="display: block;">
+                    <div class="slider-content s-tb slide-1">
+                        <div class="text-left title-container s-tb-c">
+                            <div class="container">
+                                <div class="slider-sub-text">Servicing &amp; Repair Company</div>
+                                <h1 class="slider-big-text">Trusted Plumbing</h1>
+                                <div class="slider-paragraph">Pellentesque habitant morbi tristique senectus et pellente morbi 
+                                    nectneolitics ellentesque vestibulum nectneolitics modern</div>
+                                <div class="slider-btn-area">
+                                    <a href="#" class="item-btn-fill">Get Started Now
+                                        <i class="fas fa-long-arrow-alt-right"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6 col-12">
-                        <div class="service-box-layout2">
-                            <div class="item-icon">
-                                <i class="flaticon-leak"></i>
-                            </div>
-                            <div class="item-content">
-                                <h3 class="item-title"><a href="single-service1.html">Leak Pipe</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 col-12">
-                        <div class="service-box-layout2">
-                            <div class="item-icon">
-                                <i class="flaticon-bathroom"></i>
-                            </div>
-                            <div class="item-content">
-                                <h3 class="item-title"><a href="single-service1.html">Toilet Cleaning</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 col-12 d-none d-sm-block">
-                        <div class="service-box-layout2">
-                            <div class="item-icon">
-                                <i class="flaticon-broken"></i>
-                            </div>
-                            <div class="item-content">
-                                <h3 class="item-title"><a href="single-service1.html">Broken Pipe</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 col-12 d-none d-sm-block">
-                        <div class="service-box-layout2">
-                            <div class="item-icon">
-                                <i class="flaticon-tank"></i>
-                            </div>
-                            <div class="item-content">
-                                <h3 class="item-title"><a href="single-service1.html">Water Heating</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 col-12 d-none d-sm-block">
-                        <div class="service-box-layout2">
-                            <div class="item-icon">
-                                <i class="flaticon-pipe-wrench"></i>
-                            </div>
-                            <div class="item-content">
-                                <h3 class="item-title"><a href="single-service1.html">Plumber Wrench</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 col-12 d-none d-sm-block">
-                        <div class="service-box-layout2">
-                            <div class="item-icon">
-                                <i class="flaticon-pipes"></i>
-                            </div>
-                            <div class="item-content">
-                                <h3 class="item-title"><a href="single-service1.html">Factory Machine</a></h3>
+                </div><div class="nivo-directionNav"><a class="nivo-prevNav">Prev</a><a class="nivo-nextNav">Next</a></div></div><div class="nivo-controlNav"><a class="nivo-control active" rel="0">1</a><a class="nivo-control" rel="1">2</a><a class="nivo-control" rel="2">3</a></div>
+                <div id="slider-direction-1" class="t-cn slider-direction">
+                    <div class="slider-content s-tb slide-1">
+                        <div class="text-left title-container s-tb-c">
+                            <div class="container">
+                                <div class="slider-sub-text">Servicing &amp; Repair Company</div>
+                                <h1 class="slider-big-text">Trusted Plumbing</h1>
+                                <div class="slider-paragraph">Pellentesque habitant morbi tristique senectus et pellente morbi 
+                                    nectneolitics ellentesque vestibulum nectneolitics modern</div>
+                                <div class="slider-btn-area">
+                                    <a href="#" class="item-btn-fill">Get Started Now
+                                        <i class="fas fa-long-arrow-alt-right"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+                <div id="slider-direction-2" class="t-cn slider-direction">
+                    <div class="slider-content s-tb slide-2">
+                        <div class="text-left title-container s-tb-c">
+                            <div class="container">
+                                <div class="slider-sub-text">Servicing &amp; Repair Company</div>
+                                <h1 class="slider-big-text">Trusted Plumbing</h1>
+                                <div class="slider-paragraph">Pellentesque habitant morbi tristique senectus et pellente morbi 
+                                    nectneolitics ellentesque vestibulum nectneolitics modern</div>
+                                <div class="slider-btn-area">
+                                    <a href="#" class="item-btn-fill">Get Started Now
+                                        <i class="fas fa-long-arrow-alt-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="slider-direction-3" class="t-cn slider-direction">
+                    <div class="slider-content s-tb slide-3">
+                        <div class="text-left title-container s-tb-c">
+                            <div class="container">
+                                <div class="slider-sub-text">Servicing &amp; Repair Company</div>
+                                <h1 class="slider-big-text">Trusted Plumbing</h1>
+                                <div class="slider-paragraph">Pellentesque habitant morbi tristique senectus et pellente morbi 
+                                    nectneolitics ellentesque vestibulum nectneolitics modern</div>
+                                <div class="slider-btn-area">
+                                    <a href="#" class="item-btn-fill">Get Started Now
+                                        <i class="fas fa-long-arrow-alt-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
         <!-- Service Area End Here -->
         <!-- Why Choose Area Start Here -->
         <section class="why-choose-wrap-layout1">
