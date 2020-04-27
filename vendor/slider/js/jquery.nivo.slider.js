@@ -22,7 +22,6 @@
             stop: false,
             controlNavEl: false
         };
-
         // Get this slider
         var slider = $(element);
         slider.data('nivo:vars', vars).addClass('nivoSlider');
