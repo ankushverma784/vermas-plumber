@@ -5,10 +5,7 @@
 <!-- Mirrored from radiustheme.com/demo/html/fixer/fixer/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 25 Apr 2020 07:01:57 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 
-
-
 <?php include 'header.php'; ?>
-
 
 <body class="sticky-header">
     <!--[if lte IE 9]>
@@ -21,13 +18,7 @@
     <!-- ScrollUp End Here -->
     <div id="wrapper" class="wrapper">
         <!-- Add your site or application content here -->
-
-
         <?php include 'navbar.php'; ?>
-        
-        
-        
-        
         <!-- Slider Area Start Here -->
         <div class="slider-area slider-layout2">
             <div class="bend niceties preview-1">
@@ -576,7 +567,6 @@
             <div id="googleMap" class="google-map" style="width:100%; height:450px; border-radius: 0;"></div>
         </div> -->
         <!-- Google Map Area End Here -->
-    
 
         <?php include 'footer2.php'; ?>
 
@@ -612,7 +602,7 @@
     <script src="vendor/slider/js/jquery.nivo.slider.js"></script> 
     <script src="vendor/slider/home.js"></script>
     <!-- Google Map js -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtmXSwv4YmAKtcZyyad9W7D4AC08z0Rb4"></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtmXSwv4YmAKtcZyyad9W7D4AC08z0Rb4"></script> -->
     <!-- Main js -->
     <script src="js/main.js"></script>
 
