@@ -342,7 +342,7 @@
         </section>
         <!-- Team Area End Here -->
             <!-- Call To Action Area Start Here -->
-            <section class="action-wrap-layout1">
+        <section class="action-wrap-layout1">
             <div class="container">
                 <div class="row">
                     <div class="col-12 d-xl-flex align-items-center">
@@ -569,6 +569,7 @@
         <!-- Search Box End Here -->
     </div>
     <!-- jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
     <!-- Plugins js -->
     <script src="js/plugins.js"></script>
