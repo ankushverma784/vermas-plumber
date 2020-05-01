@@ -31,4 +31,5 @@
     <link rel="stylesheet" href="style.css">
     <!-- Modernize js -->
     <script src="js/modernizr-3.7.1.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
 </head>
