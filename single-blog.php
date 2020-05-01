@@ -302,7 +302,7 @@
                             <div class="item-img">
                                 <img src="img/figure/figure5.png" alt="Banner">
                                 <div class="item-content">
-                                    <div class="item-number"><i class="flaticon-call-answer"></i> +9800 55 66</div>
+                                    <div class="item-number"><i class="flaticon-call-answer"></i> +91-9808-64-8205</div>
                                     <p>Emergency Call Us</p>
                                 </div>
                             </div>
