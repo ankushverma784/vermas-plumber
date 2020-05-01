@@ -5,7 +5,7 @@
 <!-- Mirrored from radiustheme.com/demo/html/fixer/fixer/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 25 Apr 2020 07:01:57 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 
-<?php include 'header.php'; ?>
+<?php include 'template/header.php'; ?>
 
 <body class="sticky-header">
     <!--[if lte IE 9]>
@@ -18,7 +18,7 @@
     <!-- ScrollUp End Here -->
     <div id="wrapper" class="wrapper">
         <!-- Add your site or application content here -->
-        <?php include 'navbar.php'; ?>
+        <?php include 'template/navbar.php'; ?>
         <!-- Slider Area Start Here -->
         <div class="slider-area slider-layout1">
             <div class="bend niceties preview-1">
@@ -554,7 +554,7 @@
         </div> -->
         <!-- Google Map Area End Here -->
 
-        <?php include 'footer2.php'; ?>
+        <?php include 'template/footer2.php'; ?>
 
         <!-- Search Box Start Here -->
         <div id="header-search" class="header-search">
