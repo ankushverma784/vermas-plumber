@@ -568,8 +568,7 @@
         </div>
         <!-- Search Box End Here -->
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
     <!-- jquery-->
     <script src="js/jquery-3.3.1.min.js"></script>
     <!-- Plugins js -->
@@ -583,12 +582,12 @@
     <!-- MeanMenu js -->
     <script src="js/jquery.meanmenu.min.js"></script> 
     <!-- OwlCerousel js -->
-    <script src="vendor/OwlCarousel/owl.carousel.min.js"></script>
+    <script src="assets/OwlCarousel/owl.carousel.min.js"></script>
     <!-- Select 2 js -->
     <script src="js/select2.min.js"></script>
     <!-- Nivo Slider js -->
-    <script src="vendor/slider/js/jquery.nivo.slider.js"></script> 
-    <script src="vendor/slider/home.js"></script>
+    <script src="assets/slider/js/jquery.nivo.slider.js"></script> 
+    <script src="assets/slider/home.js"></script>
     <!-- Google Map js -->
     <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtmXSwv4YmAKtcZyyad9W7D4AC08z0Rb4"></script> -->
     <!-- Main js -->
