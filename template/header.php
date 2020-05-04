@@ -23,10 +23,10 @@
     <!-- Select 2 CSS -->
     <link rel="stylesheet" href="css/select2.min.css">
     <!-- OwlCerousel CSS -->
-    <link rel="stylesheet" href="vendor/OwlCarousel/owl.theme.default.min.css">
-    <link rel="stylesheet" href="vendor/OwlCarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/OwlCarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/OwlCarousel/owl.carousel.min.css">
     <!-- Nivo Slider CSS -->
-    <link rel="stylesheet" href="vendor/slider/css/nivo-slider.css">
+    <link rel="stylesheet" href="assets/slider/css/nivo-slider.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
     <!-- Modernize js -->
