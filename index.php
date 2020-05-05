@@ -93,7 +93,7 @@
                             <div class="item-content">
                                 <h3 class="item-title"><a href="single-service1.html">Residential Plumbing</a></h3>
                                 <div class="btn-wrap">
-                                    <a href="single-service1.html" class="item-btn"><i class="fas fa-long-arrow-alt-right"></i></a>
+                                    <a href="single-service.php" class="item-btn"><i class="fas fa-long-arrow-alt-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -106,7 +106,7 @@
                             <div class="item-content">
                                 <h3 class="item-title"><a href="single-service1.html">Commercial Plumbing</a></h3>
                                 <div class="btn-wrap">
-                                    <a href="single-service1.html" class="item-btn"><i class="fas fa-long-arrow-alt-right"></i></a>
+                                    <a href="single-service.php" class="item-btn"><i class="fas fa-long-arrow-alt-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -119,7 +119,7 @@
                             <div class="item-content">
                                 <h3 class="item-title"><a href="single-service1.html">Service &amp; Repairing</a></h3>
                                 <div class="btn-wrap">
-                                    <a href="single-service1.html" class="item-btn"><i class="fas fa-long-arrow-alt-right"></i></a>
+                                    <a href="single-service.php" class="item-btn"><i class="fas fa-long-arrow-alt-right"></i></a>
                                 </div>
                             </div>
                         </div>
