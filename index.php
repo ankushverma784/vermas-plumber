@@ -502,13 +502,13 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="blog-box-layout1">
                             <div class="post-img">
-                                <a href="single-blog1.html"><img src="img/blog/blog1.jpg" alt="blog"></a>
+                                <a href="single-blog.php"><img src="img/blog/blog1.jpg" alt="blog"></a>
                             </div>
                             <div class="post-content">
                                 <div class="post-date">27 June, 2019</div>
-                                <h3 class="post-title"><a href="single-blog1.html">Flushing Food Down the Toilet? Be  Careful</a></h3>
+                                <h3 class="post-title"><a href="single-blog.php">Flushing Food Down the Toilet? Be  Careful</a></h3>
                                 <p>When an unknown printer took a galley of type and scrambled  survived not only five centuries ...</p>
-                                <a href="single-blog1.html" class="ghost-btn-md item-btn body-text border-aash">Read More
+                                <a href="single-blog.php" class="ghost-btn-md item-btn body-text border-aash">Read More
                                     <i class="fas fa-long-arrow-alt-right text-accent"></i>
                                 </a>
                             </div>
@@ -517,13 +517,13 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="blog-box-layout1">
                             <div class="post-img">
-                                <a href="single-blog1.html"><img src="img/blog/blog2.jpg" alt="blog"></a>
+                                <a href="single-blog.php"><img src="img/blog/blog2.jpg" alt="blog"></a>
                             </div>
                             <div class="post-content">
                                 <div class="post-date">27 June, 2019</div>
-                                <h3 class="post-title"><a href="single-blog1.html">Bathroom Basics: Furnishing Apartment</a></h3>
+                                <h3 class="post-title"><a href="single-blog.php">Bathroom Basics: Furnishing Apartment</a></h3>
                                 <p>When an unknown printer took a galley of type and scrambled  survived not only five centuries ...</p>
-                                <a href="single-blog1.html" class="ghost-btn-md item-btn body-text border-aash">Read More
+                                <a href="single-blog.php" class="ghost-btn-md item-btn body-text border-aash">Read More
                                     <i class="fas fa-long-arrow-alt-right text-accent"></i>
                                 </a>
                             </div>
@@ -532,13 +532,13 @@
                     <div class="col-lg-4 d-block d-md-none d-lg-block">
                         <div class="blog-box-layout1">
                             <div class="post-img">
-                                <a href="single-blog1.html"><img src="img/blog/blog3.jpg" alt="blog"></a>
+                                <a href="single-blog.php"><img src="img/blog/blog3.jpg" alt="blog"></a>
                             </div>
                             <div class="post-content">
                                 <div class="post-date">27 June, 2019</div>
-                                <h3 class="post-title"><a href="single-blog1.html">Best in Kitchens, for 5 Years, and Counting!</a></h3>
+                                <h3 class="post-title"><a href="single-blog.php">Best in Kitchens, for 5 Years, and Counting!</a></h3>
                                 <p>When an unknown printer took a galley of type and scrambled  survived not only five centuries ...</p>
-                                <a href="single-blog1.html" class="ghost-btn-md item-btn body-text border-aash">Read More
+                                <a href="single-blog.php" class="ghost-btn-md item-btn body-text border-aash">Read More
                                     <i class="fas fa-long-arrow-alt-right text-accent"></i>
                                 </a>
                             </div>

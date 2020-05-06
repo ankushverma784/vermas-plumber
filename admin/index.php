@@ -1,164 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<?php include 'template/header.php'; ?>
-
-
-<body>
-    <!-- Preloader -->
-    <div class="preloader">
-        <div class="cssload-speeding-wheel"></div>
-    </div>
-    <div id="wrapper">
-
-    <?php include 'template/sidebar.php'; ?>
-
-
-
-    <div id="page-wrapper">
-            <div class="container-fluid">
-                <div class="row bg-title">
-                    <div class="col-lg-12">
-                        <h4 class="page-title">Welcome to My Admin</h4>
-                        <ol class="breadcrumb">
-                            <li><a href="index.php">Dashboard</a></li>
-                        </ol>
-                    </div>
-                    <!-- /.col-lg-12 -->
-                </div>
-                <!-- /.row -->
-                <div class="row">
-                    <div class="col-md-12 col-lg-12 col-sm-12">
-                        <div class="white-box">
-                            <div class="row row-in">
-                                <div class="col-lg-3 col-sm-6">
-                                    <div class="col-in text-center">
-                                        <h5 class="text-danger">Chrome</h5>
-                                        <h3 class="counter">5645</h3>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-sm-6">
-                                    <div class="col-in text-center b-r-none">
-                                        <h5 class="text-muted text-warning">Mozila</h5>
-                                        <h3 class="counter">4250</h3>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-sm-6">
-                                    <div class="col-in text-center">
-                                        <h5 class="text-muted text-purple">Safari</h5>
-                                        <h3 class="counter">3450</h3>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-sm-6">
-                                    <div class="col-in text-center b-0">
-                                        <h5 class="text-info">Explorer</h5>
-                                        <h3 class="counter">2500</h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="morris-area-chart" style="height: 345px;"></div>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6 lt8"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7 lt8"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8 lt8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="UTF-8" />
+        <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  -->
+        <title>Verma's plumbing solutions</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Login and Registration Form with HTML5 and CSS3" />
+        <meta name="keywords" content="html5, css3, form, switch, animation, :target, pseudo-class" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="login/css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="login/css/style.css" />
+		<link rel="stylesheet" type="text/css" href="login/css/animate-custom.css" />
+    </head>
+    <body>
+        <div class="container">
+       
+            <section>				
+                <div id="container_demo" >
+                    <a class="hiddenanchor" id="toregister"></a>
+                    <a class="hiddenanchor" id="tologin"></a>
+                    <div id="wrapper">
+                        <div id="login" class="animate form">
+                            <form  action="mysuperscript.php" autocomplete="on" method="get"> 
+                                <h1>Log in</h1> 
+                                <p> 
+                                    <label for="username" class="uname" data-icon="u" > Your email or username </label>
+                                    <input id="username" name="username" required="required" type="text" placeholder="myusername or mymail@mail.com"/>
+                                </p>
+                                <p> 
+                                    <label for="password" class="youpasswd" data-icon="p"> Your password </label>
+                                    <input id="password" name="password" required="required" type="password" placeholder="eg. X8df!90EO" /> 
+                                </p>
+                                <p class="keeplogin"> 
+									<input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" /> 
+									<label for="loginkeeping">Keep me logged in</label>
+								</p>
+                                <p class="login button"> 
+                                    <input type="submit" value="Log_in" /> 
+								</p>
+                                <p class="change_link">
+									Not a member yet ?
+									<a href="#toregister" class="to_register">Sign Up</a>
+								</p>
+                            </form>
                         </div>
-                    </div>
-                </div>
-                <!-- row -->
-                <div class="row">
-                    <div class="col-md-6 col-xs-12 col-sm-12">
-                        <div class="white-box">
-                            <h3>To Do List</h3>
-                            <ul class="list-task list-group" data-role="tasklist">
-                                <li class="list-group-item" data-role="task">
-                                    <div class="checkbox checkbox-info">
-                                        <input type="checkbox" id="inputSchedule" name="inputCheckboxesSchedule">
-                                        <label for="inputSchedule"> <span>Schedule meeting</span> </label>
-                                    </div>
-                                </li>
-                                <li class="list-group-item" data-role="task">
-                                    <div class="checkbox checkbox-info">
-                                        <input type="checkbox" id="inputCall" name="inputCheckboxesCall">
-                                        <label for="inputCall"> <span>Call clients for follow-up</span> <span class="label label-danger">Today</span> </label>
-                                    </div>
-                                </li>
-                                <li class="list-group-item" data-role="task">
-                                    <div class="checkbox checkbox-info">
-                                        <input type="checkbox" id="inputBook" name="inputCheckboxesBook">
-                                        <label for="inputBook"> <span>Book flight for holiday</span> </label>
-                                    </div>
-                                </li>
-                                <li class="list-group-item" data-role="task">
-                                    <div class="checkbox checkbox-info">
-                                        <input type="checkbox" id="inputForward" name="inputCheckboxesForward">
-                                        <label for="inputForward"> <span>Forward important tasks</span> <span class="label label-warning">2 weeks</span> </label>
-                                    </div>
-                                </li>
-                                <li class="list-group-item" data-role="task">
-                                    <div class="checkbox checkbox-info">
-                                        <input type="checkbox" id="inputRecieve" name="inputCheckboxesRecieve">
-                                        <label for="inputRecieve"> <span>Recieve shipment</span> </label>
-                                    </div>
-                                </li>
-                                <li class="list-group-item" data-role="task">
-                                    <div class="checkbox checkbox-info">
-                                        <input type="checkbox" id="inputForward2" name="inputCheckboxesd">
-                                        <label for="inputForward2"> <span>Important tasks</span> <span class="label label-success">2 weeks</span> </label>
-                                    </div>
-                                </li>
-                            </ul>
+
+                        <div id="register" class="animate form">
+                            <form  action="mysuperscript.php" autocomplete="on" method="post"> 
+                                <h1> Sign up </h1> 
+                                <p> 
+                                    <label for="usernamesignup" class="uname" data-icon="u">Your username</label>
+                                    <input id="usernamesignup" name="usernamesignup" required="required" type="text" placeholder="mysuperusername690" />
+                                </p>
+                                <p> 
+                                    <label for="emailsignup" class="youmail" data-icon="e" > Your email</label>
+                                    <input id="emailsignup" name="emailsignup" required="required" type="email" placeholder="mysupermail@mail.com"/> 
+                                </p>
+                                <p> 
+                                    <label for="passwordsignup" class="youpasswd" data-icon="p">Your password </label>
+                                    <input id="passwordsignup" name="passwordsignup" required="required" type="password" placeholder="eg. X8df!90EO"/>
+                                </p>
+                                <p> 
+                                    <label for="passwordsignup_confirm" class="youpasswd" data-icon="p">Please confirm your password </label>
+                                    <input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" type="password" placeholder="eg. X8df!90EO"/>
+                                </p>
+                                <p class="signin button"> 
+									<input type="submit" value="Sign up"/> 
+								</p>
+                                <p class="change_link">  
+									Already a member ?
+									<a href="#tologin" class="to_register"> Go To Log_In </a>
+								</p>
+                            </form>
                         </div>
+						
                     </div>
-                    <div class="col-md-6 col-xs-12 col-sm-12">
-                        <div class="white-box">
-                            <h3>You have 5 new messages</h3>
-                            <div class="message-center">
-                                <a href="#">
-                                    <div class="user-img">
-                                        <img src="images/users/pawandeep.jpg" alt="user" class="img-circle"> <span class="profile-status online pull-right"></span>
-                                    </div>
-                                    <div class="mail-contnet">
-                                        <h5>Pavan kumar</h5>
-                                        <span class="mail-desc">Just see the my admin!</span> <span class="time">9:30 AM</span>
-                                    </div>
-                                </a>
-                                <a href="#">
-                                    <div class="user-img"> <img src="images/users/sonu.jpg" alt="user" class="img-circle"> <span class="profile-status busy pull-right"></span> </div>
-                                    <div class="mail-contnet">
-                                        <h5>Sonu Nigam</h5>
-                                        <span class="mail-desc">I've sung a song! See you at</span> <span class="time">9:10 AM</span>
-                                    </div>
-                                </a>
-                                <a href="#">
-                                    <div class="user-img"> <img src="images/users/arijit.jpg" alt="user" class="img-circle"> <span class="profile-status away pull-right"></span> </div>
-                                    <div class="mail-contnet">
-                                        <h5>Arijit Sinh</h5>
-                                        <span class="mail-desc">I am a singer!</span> <span class="time">9:08 AM</span>
-                                    </div>
-                                </a>
-                                <a href="#">
-                                    <div class="user-img"> <img src="images/users/genu.jpg" alt="user" class="img-circle"> <span class="profile-status online pull-right"></span> </div>
-                                    <div class="mail-contnet">
-                                        <h5>Genelia Deshmukh</h5>
-                                        <span class="mail-desc">I love to do acting and dancing</span> <span class="time">9:08 AM</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="b-none">
-                                    <div class="user-img"> <img src="images/users/pawandeep.jpg" alt="user" class="img-circle"> <span class="profile-status offline pull-right"></span> </div>
-                                    <div class="mail-contnet">
-                                        <h5>Pavan kumar</h5>
-                                        <span class="mail-desc">Just see the my admin!</span> <span class="time">9:02 AM</span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.container-fluid -->
+                </div>  
+            </section>
         </div>
-
-
-        <?php include 'template/footer.php'; ?>
-
-        
-</body>
-
+    </body>
 </html>
