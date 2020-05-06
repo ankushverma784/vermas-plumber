@@ -547,6 +547,40 @@
                 </div>
             </div>
         </section>
+
+        <div class="call-animation">
+<a onclick="video_popup1();"><i class="fa fa-phone"></i> </a>
+</div>
+<style>
+    a:hover {
+    color: #ea4906;
+    text-decoration: none;
+    transition: all 0.25s ease 0s;
+    -moz-transition: all 0.25s ease 0s;
+    -webkit-transition: all 0.25s ease 0s;
+    -o-transition: all 0.25s ease 0s;
+}
+
+.call-animation {
+    background: #ffa12c;
+    width: 65px;
+    height: 65px;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 100%;
+    border: solid 5px #fff;
+    animation: play 2s ease infinite;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: fixed;
+    bottom: 105px;
+    right: 20px;
+}
+</style>
+
+
         <!-- Blog Area End Here -->
         <!-- Google Map Area Start Here -->
         <!-- <div class="google-map-area">
