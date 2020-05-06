@@ -547,7 +547,7 @@
                 </div>
             </div>
         </section>
-
+<!-- 
         <div class="call-animation">
 <a onclick="video_popup1();"><i class="fa fa-phone"></i> </a>
 </div>
@@ -578,7 +578,7 @@
     bottom: 105px;
     right: 20px;
 }
-</style>
+</style> -->
 
 
         <!-- Blog Area End Here -->
